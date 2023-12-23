@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 13 15:16:33 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55200 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='car.car1.audi()'><b>audi</b><br>Test class: car.car1</td>
+<td></td>
+<td>4</td>
+<td>car.car1@11c9af63</td></tr>
+<tr>
+<td title='car.car3.kia()'><b>kia</b><br>Test class: car.car3</td>
+<td></td>
+<td>18</td>
+<td>car.car3@45ca843</td></tr>
+<tr>
+<td title='bike.bike1.r15()'><b>r15</b><br>Test class: bike.bike1</td>
+<td></td>
+<td>4</td>
+<td>bike.bike1@186f8716</td></tr>
+<tr>
+<td title='bike.bike2.royalenfield()'><b>royalenfield</b><br>Test class: bike.bike2</td>
+<td></td>
+<td>27</td>
+<td>bike.bike2@1d8bd0de</td></tr>
+</table><p>
+</body>
+</html>
